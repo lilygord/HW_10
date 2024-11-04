@@ -1,0 +1,53 @@
+    1  git config --global user.name "Liliya Hordiichuk"
+    2  git config --global user.email "leeloo.dallas1982@gmail.com"
+    3  git clone https://github.com/lilygord/HW_10.git
+    4  cd HW_10
+    5  pwd
+    6  touch text_ignore.txt
+    7  nano .gitignore
+    8  git status
+    9  git add.
+   10  git status
+   11  git commit -m "Зміни"
+   12  touch main_test.txt
+   13  ls
+   14  git add.
+   15  git commit -m "Створення текстового файлу"
+   16  git status
+   17  git status
+   18  git add <main_test.txt>    
+   19  git add main_test.txt
+   20  git commit -m "Create file"
+   21  git status
+   22  pwd
+   23  git log
+   24  git branch develop
+   25  git checkout develop
+   26  git branch
+   27  touch develop_test.txt
+   28  pwd
+   29  ls
+   30  git add.
+   31  git commit -m "create levelop.txt"
+   32  git add .
+   33  git commit -m "kfkd"
+   34  git log
+   35  nano develop.txt
+   36  git status
+   37  nano develop_test.txt
+   38  git add .
+   39  git commit -m "jus a smal change"
+   40  git status
+   41  git status
+   42  git status
+   43  git checkout main
+   44  git branch
+   45  git merge develop
+   46  git log
+   47  command_list.csv
+   48  command_list.csb
+   49  command_list.csv
+   50  pwd
+   51  git branch
+   52  git log
+   53  history > command_list.csv
